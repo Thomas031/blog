@@ -3,84 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Vie d'un Étudiant en Restauration</title>
+    <title>Blog sur la Vie des Gens</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>La Vie d'un Étudiant en Restauration</h1>
+        <h1>Blog sur la Vie des Gens</h1>
     </header>
-     
+    
     <nav>
         <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#choix-formation">Choix de la Formation</a></li>
-            <li><a href="#formation-cap">Formation CAP</a></li>
-            <li><a href="#vie-quotidienne">Vie Quotidienne</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#avenir">Perspectives d'Avenir</a></li>
-            <li><a href="#conclusion">Conclusion</a></li>
+            <li><a href="#" onclick="showArticle('article1')">Article 1</a></li>
+            <li><a href="#" onclick="showArticle('article2')">Article 2</a></li>
+            <li><a href="#" onclick="showArticle('article3')">Article 3</a></li>
+            <!-- Ajoute d'autres liens d'articles ici -->
         </ul>
     </nav>
 
     <main>
-        <article id="introduction" class="blog-post">
-            <h2>Introduction</h2>
+        <section id="article1" class="blog-post">
+            <h2>Article 1 : La vie d'un étudiant en restauration</h2>
             <p>Introduction sur le métier de serveur et l'importance de la formation en CAP.</p>
             <span class="date">Publié le 01 janvier 2024</span>
-        </article>
+        </section>
         
-        <article id="choix-formation" class="blog-post">
-            <h2>Choix de la Formation</h2>
-            <p>Pourquoi l'étudiant a choisi une formation en restauration.</p>
-            <p>Les objectifs personnels et professionnels de l'étudiant.</p>
+        <section id="article2" class="blog-post" style="display:none;">
+            <h2>Article 2 : Une journée dans la vie d'un médecin</h2>
+            <p>Un aperçu de la journée typique d'un médecin, des défis et des moments marquants.</p>
             <span class="date">Publié le 02 janvier 2024</span>
-        </article>
+        </section>
 
-        <article id="formation-cap" class="blog-post">
-            <h2>Formation CAP Restauration</h2>
-            <p>Description de la formation : Cours théoriques et pratiques.</p>
-            <p>Les matières étudiées : Cuisine, service, hygiène, sécurité, etc.</p>
-            <p>Les stages en entreprise : Expériences et apprentissages sur le terrain.</p>
+        <section id="article3" class="blog-post" style="display:none;">
+            <h2>Article 3 : La vie d'un artiste en herbe</h2>
+            <p>Découverte du parcours et des inspirations d'un jeune artiste.</p>
             <span class="date">Publié le 03 janvier 2024</span>
-        </article>
-
-        <article id="vie-quotidienne" class="blog-post">
-            <h2>Vie Quotidienne d'un Étudiant en Restauration</h2>
-            <p>Horaires et emploi du temps : Une journée typique dans la vie de l'étudiant.</p>
-            <img src="images/journee_typique.jpg" alt="Une journée typique" style="width:100%; height:auto;">
-            <p>Les défis : Problèmes rencontrés et solutions trouvées.</p>
-            <p>Les moments marquants : Anecdotes et souvenirs importants.</p>
-            <span class="date">Publié le 04 janvier 2024</span>
-        </article>
-
-        <article id="competences" class="blog-post">
-            <h2>Compétences Développées</h2>
-            <p>Techniques de service : Compétences en service à la table, présentation des plats, etc.</p>
-            <p>Compétences interpersonnelles : Relation avec les clients, gestion du stress, travail en équipe.</p>
-            <p>Autres compétences : Organisation, gestion du temps, respect des normes d'hygiène.</p>
-            <span class="date">Publié le 05 janvier 2024</span>
-        </article>
-
-        <article id="avenir" class="blog-post">
-            <h2>Perspectives d'Avenir</h2>
-            <p>Débouchés professionnels : Différents métiers accessibles avec un CAP Restauration.</p>
-            <p>Projets futurs : Ambitions professionnelles de l'étudiant après l'obtention du CAP.</p>
-            <p>Formations complémentaires : Possibilités de poursuites d'études ou de spécialisations.</p>
-            <span class="date">Publié le 06 janvier 2024</span>
-        </article>
-
-        <article id="conclusion" class="blog-post">
-            <h2>Conclusion</h2>
-            <p>Résumé de l'expérience : Bilan de la formation et de l'expérience personnelle.</p>
-            <p>Message aux futurs étudiants : Conseils et encouragements pour ceux qui souhaitent suivre cette voie.</p>
-            <span class="date">Publié le 07 janvier 2024</span>
-        </article>
+        </section>
+        
+        <!-- Ajoute d'autres sections d'articles ici -->
     </main>
 
     <footer>
-        <p>&copy; 2024 La Vie d'un Étudiant en Restauration</p>
+        <p>&copy; 2024 Blog sur la Vie des Gens</p>
     </footer>
 
     <script src="script.js"></script>
